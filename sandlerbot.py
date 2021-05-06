@@ -62,6 +62,6 @@ def send_click_tweet():
 
 while True:
     send_click_tweet()
-    time.sleep(86400)
+    time.sleep(86000)
 
 
