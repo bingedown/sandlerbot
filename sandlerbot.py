@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 
 url = "https://subslikescript.com/movie/Click-389860"
 http_pool = urllib3.connection_from_url(url)
-r = http_pool.urlopen('GET',url)
+r = http_pool.urlopen('GET', url)
 
 response = r.data
 
@@ -62,6 +62,5 @@ def send_click_tweet():
 
 while True:
     send_click_tweet()
-    time.sleep(86000)
 
 
