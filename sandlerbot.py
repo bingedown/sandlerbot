@@ -60,7 +60,6 @@ def send_click_tweet():
         api.update_status(tweet_content)
 
 
-while True:
-    send_click_tweet()
+send_click_tweet()
 
 
